@@ -1,0 +1,355 @@
+:root {
+    
+    --main-color : #64dc9c;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto
+}
+
+/*Start Landing Page*/
+
+.landing-page {
+    
+    min-height: 100vh;
+    background-image: url(../images/10.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.landing-page .overlay {
+    
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.landing-page .header {
+    
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    display: flex;
+    padding: 10px
+}
+
+.landing-page .header .logo {
+    
+    width: 500px;
+    float: left;
+    padding: 5px 10px 10px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer
+}
+
+.landing-page .header .navigation {
+    
+    list-style: none;
+    width: 100%;
+    font-size: 15px
+}
+
+.landing-page .header .navigation > li {
+    
+    margin: 10px;
+    padding: 20px;
+    float: left
+}
+
+.landing-page .header .navigation li a {
+    
+    text-decoration: none;
+    color: #FFF;
+    transition: .3s;
+}
+
+.landing-page .header .navigation li a:hover,
+.landing-page .header .navigation li a.active {
+    
+    color: var(--main-color);
+}
+
+/*End Landing Page*/
+
+
+/*Start Package1 Section*/
+
+.package1 {
+    
+    padding-top: 80px;
+    margin-bottom: 30px;
+    height: 650px
+}
+
+.package1 .img {
+    
+    float: left;
+    padding-left: 20px;
+    margin-left: 50px;
+    height: 550px;
+    width: 400px;
+    background-image: url(../images/wedding/22.jpg);
+    background-size: cover;
+    border: 2px solid #CCC;
+}
+
+.package1 .package-info {
+    
+    float: left;
+    padding-left: 200px;
+    text-align: center
+}
+
+.package1 .package-info h3 {
+    
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+.package1 .package-info p {
+    
+    color: #a55e5e;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+    
+}
+
+.package1 .package-info p:last-of-type {
+    
+    color: var(--main-color);
+    padding: 15px;
+}
+
+.package1 .package-info button {
+    
+    margin-top: 10px;
+    width: 290px;
+    padding: 10px;
+    border-color: transparent;
+    background-color: var(--main-color);
+    cursor: pointer
+}
+
+/*End Package1 section*/
+
+/*Start Package2 Section*/
+
+.package2 {
+    
+    padding-top: 80px;
+    height: 650px
+}
+
+.package2 .img {
+    
+    float: right;
+    margin-right: 20px;
+    margin-right: 50px;
+    height: 550px;
+    width: 400px;
+    background-image: url(../images/couple/137.jpg);
+    background-size: cover;
+    border: 2px solid #CCC;
+}
+
+.package2 .package-info {
+    
+    float: left;
+    padding-left: 200px;
+    text-align: center
+}
+
+.package2 .package-info h3 {
+    
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+.package2 .package-info p {
+    
+    color: #a55e5e;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+    
+}
+
+.package2 .package-info p:last-of-type {
+    
+    color: var(--main-color);
+    padding: 15px;
+}
+
+.package2 .package-info button {
+    
+    margin-top: 10px;
+    width: 290px;
+    padding: 10px;
+    border-color: transparent;
+    background-color: var(--main-color);
+    cursor: pointer
+}
+
+
+/*End Package2 Section*/
+
+/*start Insta */
+
+.insta {
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.insta h3 {
+    
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.insta span i {
+    
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--main-color);
+    
+}
+
+.insta span i:hover {
+    
+    color: #66023C
+}
+
+.insta .insta-pic {
+    
+    padding-top: 30px
+}
+
+.insta .insta-pic img {
+    
+    width: 200px;
+    height: 250px;
+    padding: 0;
+    cursor: pointer;
+    border: 1.5px solid #ccc;
+}
+/*End Insta*/
+
+/*Start Footer*/
+
+.footer {
+    
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #332727;
+    color: #FFF
+    
+}
+
+.footer span {
+    
+    color: var(--main-color);
+    font-weight: bold
+}
+/*End Footer*/
+
+/*Start Grid System*/
+
+
+/*Small Devices*/
+@media ( min-width: 576px ) { 
+    
+    .container {
+        
+        max-width: 540px
+    }
+}
+
+
+/*Medium Devices*/
+@media ( min-width: 768px ) { 
+    
+    .container {
+        
+        max-width: 720px
+    }
+}
+
+/*Desktops*/
+@media ( min-width: 992px ) { 
+    
+    .container {
+        
+        max-width: 960px
+    }
+}
+
+/*large Devices*/
+@media ( min-width: 1200px ) { 
+    
+    .container {
+        
+        max-width: 1140px
+    }
+}
+*/
+
+/*End Grid System*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,619 @@
+:root {
+    
+    --main-color : #64dc9c;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto
+}
+
+/*Start Landing Page*/
+
+.landing-page {
+    
+    min-height: 100vh;
+    background-image: url(../images/13.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.landing-page .overlay {
+    
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.landing-page .header {
+    
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    display: flex;
+    padding: 10px
+}
+
+.landing-page .header .logo {
+    
+    width: 500px;
+    float: left;
+    padding: 5px 10px 10px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer
+}
+
+.landing-page .header .navigation {
+    
+    list-style: none;
+    width: 100%;
+    font-size: 15px
+}
+
+.landing-page .header .navigation > li {
+    
+    margin: 10px;
+    padding: 20px;
+    float: left
+}
+
+.landing-page .header .navigation li a {
+    
+    text-decoration: none;
+    color: #FFF;
+    transition: .3s;
+}
+
+.landing-page .header .navigation li a:hover,
+.landing-page .header .navigation li a.active {
+    
+    color: var(--main-color);
+}
+
+/*End Landing Page*/
+
+/*Strat Wedding Section*/
+.wedding {
+    
+    padding: 40px 0 50px 0;
+    text-align: center;
+    min-height: 720px;
+}
+
+.wedding h3 {
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--main-color);
+    padding-bottom: 0;
+    text-transform: uppercase
+}
+
+.wedding p {
+    
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a55e5e;
+    padding-bottom: 20px
+}
+
+
+.wedding-img {position: relative}
+
+.wedding-img img {
+    
+    width: 220px;
+    padding: 3px;
+    cursor: pointer;
+    display: inline;
+    margin: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid #ccc;
+    -moz-transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+.wedding-img img:hover {
+    
+    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.wedding-img img:first-of-type {
+    
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.wedding-img img:nth-of-type(2) {
+    
+    position: absolute;
+    top: 0;
+    left: 325px
+}
+
+.wedding-img img:nth-of-type(3) {
+    
+    position: absolute;
+    top: 0;
+    left: 580px;
+}
+
+.wedding-img img:nth-of-type(4) {
+    
+    position: absolute;
+    top: 0;
+    left: 845px
+}
+
+.wedding-img img:nth-of-type(5) {
+    
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+
+.wedding-img img:nth-of-type(6) {
+    
+    position: absolute;
+    top: 320px;
+    left: 70px;
+}
+
+.wedding-img img:nth-of-type(7) {
+    
+    position: absolute;
+    top: 170px;
+    left: 580px;
+}
+
+.wedding-img img:nth-of-type(8) {
+    
+    position: absolute;
+    top: 345px;
+    left: 575px;
+}
+
+.wedding-img img:nth-of-type(9) {
+    
+    position: absolute;
+    top: 330px;
+    left: 320px;
+}
+
+.wedding-img img:last-of-type {
+    
+    position: absolute;
+    top: 350px;
+    left: 835px;
+}
+
+/*End Wedding Section*/
+
+/*Start Couple Section*/
+
+.couple {
+    
+    text-align: center;
+    padding-top: 15px;
+    min-height: 1000px
+}
+
+.couple h3 {
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--main-color);
+    padding-bottom: 30px;
+    text-transform: uppercase
+}
+
+.couple .couple-img {
+    
+    position: relative
+}
+
+.couple .couple-img img {
+    
+    width: 220px;
+    padding: 3px;
+    cursor: pointer;
+    display: inline;
+    margin: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid #ccc;
+    -moz-transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+.couple .couple-img img:hover {
+    
+    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.couple .couple-img img:first-of-type {
+    
+    position: absolute;
+    top: 0;
+    left: 50px
+}
+
+.couple .couple-img img:nth-of-type(2) {
+    
+    position: absolute;
+    top: 0;
+    left: 300px
+}
+
+.couple .couple-img img:nth-of-type(3) {
+    
+    position: absolute;
+    top: 0;
+    left: 540px
+}
+
+.couple .couple-img img:nth-of-type(4) {
+    
+    position: absolute;
+    top: 0;
+    left: 785px
+}
+
+.couple .couple-img img:nth-of-type(5) {
+    
+    position: absolute;
+    top: 175px;
+    left: 60px;
+
+}
+
+
+.couple .couple-img img:nth-of-type(6) {
+    
+    position: absolute;
+    top: 170px;
+    left: 305px;
+
+}
+
+.couple .couple-img img:nth-of-type(7) {
+    
+    position: absolute;
+    top: 340px;
+    left: 310px;
+
+}
+
+.couple .couple-img img:nth-of-type(8) {
+    
+    position: absolute;
+    top: 180px;
+    left: 550px;
+
+
+}
+
+.couple .couple-img img:nth-of-type(9) {
+    
+    position: absolute;
+    top: 160px;
+    left: 790px;
+
+}
+
+.couple .couple-img img:nth-of-type(10) {
+    
+    position: absolute;
+    top: 485px;
+    left: 45px;
+    height: 260px
+
+}
+
+.couple .couple-img img:nth-of-type(11) {
+    
+    position: absolute;
+    top: 485px;
+    left: 545px;
+    height: 290px
+
+}
+
+.couple .couple-img img:nth-of-type(12) {
+    
+    position: absolute;
+    top: 450px;
+    left: 785px;
+    height: 330px
+
+}
+
+.couple .couple-img img:last-of-type {
+    
+    position: absolute;
+    top: 515px;
+    left: 294px;
+    height: 240px
+}
+
+/*End Couple Section*/
+
+/*Start Babies Section*/
+
+.babies {
+    
+    text-align: center;
+    padding-top: 15px;
+    min-height: 915px
+}
+
+.babies h3 {
+    
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--main-color);
+    padding-bottom: 0;
+    text-transform: uppercase
+}
+
+.babies p {
+    
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a55e5e;
+    padding-bottom: 20px
+}
+
+.babies .babies-img {position: relative}
+
+.babies .babies-img img {
+    
+    width: 220px;
+    padding: 3px;
+    cursor: pointer;
+    display: inline;
+    margin: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid #ccc;
+    -moz-transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+.babies .babies-img img:hover {
+    
+    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.babies .babies-img img:first-of-type {
+    
+    position: absolute;
+    top: 0;
+    left: 60px
+}
+
+.babies .babies-img img:nth-of-type(2) {
+    
+    position: absolute;
+    top: 0;
+    left: 320px
+}
+
+.babies .babies-img img:nth-of-type(3) {
+    
+    position: absolute;
+    top: 0;
+    left: 570px
+}
+
+.babies .babies-img img:nth-of-type(4) {
+    
+    position: absolute;
+    top: 170px;
+    left: 570px;
+}
+
+.babies .babies-img img:nth-of-type(5) {
+    
+    position: absolute;
+    top: 0;
+    left: 820px;
+}
+
+.babies .babies-img img:nth-of-type(6) {
+    
+    position: absolute;
+    top: 310px;
+    left: 70px;
+}
+
+.babies .babies-img img:nth-of-type(7) {
+    
+    position: absolute;
+    top: 235px;
+    left: 825px
+}
+
+.babies .babies-img img:nth-of-type(8) {
+    
+    position: absolute;
+    top: 345px;
+    left: 570px;
+}
+
+.babies .babies-img img:nth-of-type(9) {
+    
+    position: absolute;
+    top: 345px;
+    left: 315px;
+}
+
+.babies .babies-img img:nth-of-type(10) {
+    
+    position: absolute;
+    top: 585px;
+    left: 820px;
+}
+
+.babies .babies-img img:nth-of-type(11) {
+    
+    position: absolute;
+    top: 520px;
+    left: 325px;
+}
+
+.babies .babies-img img:nth-of-type(12) {
+    
+    position: absolute;
+    top: 475px;
+    left: 60px;
+    height: 270px;
+}
+
+.babies .babies-img img:last-of-type {
+    
+    position: absolute;
+    top: 575px;
+    left: 570px;
+}
+/*End Babies Section*/
+
+/*start Insta */
+
+.insta {
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.insta h3 {
+    
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.insta span i {
+    
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--main-color);
+    
+}
+
+.insta span i:hover {
+    
+    color: #66023C
+}
+
+.insta .insta-pic {
+    
+    padding-top: 30px
+}
+
+.insta .insta-pic img {
+    
+    width: 200px;
+    height: 250px;
+    padding: 0;
+    cursor: pointer;
+    border: 1.5px solid #ccc;
+}
+/*End Insta*/
+
+/*Start Footer*/
+
+.footer {
+    
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #332727;
+    color: #FFF
+    
+}
+
+.footer span {
+    
+    color: var(--main-color);
+    font-weight: bold
+}
+/*End Footer*/
+
+/*Start Grid System*/
+
+
+/*Small Devices*/
+@media ( min-width: 576px ) { 
+    
+    .container {
+        
+        max-width: 540px
+    }
+}
+
+
+/*Medium Devices*/
+@media ( min-width: 768px ) { 
+    
+    .container {
+        
+        max-width: 720px
+    }
+}
+
+/*Desktops*/
+@media ( min-width: 992px ) { 
+    
+    .container {
+        
+        max-width: 960px
+    }
+}
+
+/*large Devices*/
+@media ( min-width: 1200px ) { 
+    
+    .container {
+        
+        max-width: 1140px
+    }
+}
+*/
+
+/*End Grid System*/
+
